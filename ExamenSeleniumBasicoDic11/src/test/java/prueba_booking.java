@@ -2,6 +2,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import java.util.Collection;
@@ -14,12 +16,24 @@ import static java.lang.Thread.sleep;
 
 public class prueba_booking {
 
-   @Test
+    public WebDriver driver;
+    public String SITE_URL = "https://www.netflix.com";
+
+    @AfterMethod
+    public void Setup()
+    {
+        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
+        driver = new ChromeDriver();
+        driver.get(SITE_URL);
+        driver.manage().window().maximize();
+    }
+
+   @Test  //Ok
     public void validarTituloTest()
     {
         System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
-        driver.get("https://www.booking.com");
+        driver.get("https://www.netflix.com");
         driver.manage().window().maximize();
         System.out.println("El titulo de la pagina es:" + driver.getTitle());
         System.out.println("La Url de la pagina es:" + driver.getCurrentUrl());
@@ -30,14 +44,14 @@ public class prueba_booking {
 
         for(WebElement h2 : listh2)
         {
-            System.out.println("------------->>>>>> H2" + h2.getText());
+            System.out.println("------------->>>>>> H2  " + h2.getText());
         }
 
         List<WebElement> listlinks = driver.findElements(By.tagName("a"));
         int counter = 0;
         for(WebElement link : listlinks)
         {
-            if(link.getText().isEmpty()==false)
+            if(!link.getText().isEmpty())
             {
                 System.out.println("---------->>>>>> links:" + "  " +link.getText());
                 counter ++;
@@ -48,7 +62,7 @@ public class prueba_booking {
 
     }
 
-    @Test
+    @Test //Ok
     public void clickbtn() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
@@ -62,6 +76,12 @@ public class prueba_booking {
         System.out.println("El nuevo titulo es:" + "  " + driver.getTitle());
 
     }
+
+    /*@BeforeMethod
+    public void teardown() throws InterruptedException {
+        Thread.sleep(3000);
+        driver.close();
+    }*/
 
     }
 
