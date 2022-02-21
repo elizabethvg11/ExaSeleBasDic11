@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="071bce0a-c104-4aea-b95c-471814346ad4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="20BUId3JE2tD9r9VPbAZl2y7u4p" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="TestNG.prueba_booking.validarTituloTest">
+    <configuration name="prueba_booking" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ExamenSeleniumBasicoDic11" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="prueba_booking" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="prueba_booking.clickbtn" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ExamenSeleniumBasicoDic11" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="prueba_booking" />
+      <option name="METHOD_NAME" value="clickbtn" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="prueba_booking.inicializingdriver" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ExamenSeleniumBasicoDic11" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="prueba_booking" />
+      <option name="METHOD_NAME" value="inicializingdriver" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="prueba_booking.validarTituloTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ExamenSeleniumBasicoDic11" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="prueba_booking" />
+      <option name="METHOD_NAME" value="validarTituloTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="spotifytestng" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ExamenSeleniumBasicoDic11" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="spotifytestng" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.prueba_booking.validarTituloTest" />
+        <item itemvalue="TestNG.prueba_booking.clickbtn" />
+        <item itemvalue="TestNG.prueba_booking" />
+        <item itemvalue="TestNG.spotifytestng" />
+        <item itemvalue="TestNG.prueba_booking.inicializingdriver" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="071bce0a-c104-4aea-b95c-471814346ad4" name="Default Changelist" comment="" />
+      <created>1635517399248</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635517399248</updated>
+    </task>
+    <servers />
+  </component>
+</project>
